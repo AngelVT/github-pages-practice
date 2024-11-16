@@ -1,0 +1,77 @@
+@font-face {
+    font-family: "RainWorld";
+    src: url("../fonts/rain-world-menu.ttf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "RainWorld";
+}
+
+html {
+    background-image: url(/img/background_1.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+.main__content {
+    height: 100dvh;
+}
+
+.login__section {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login__form {
+    width: 30%;
+    background-color: transparent;
+    border: 3px solid #fff;
+    height: 300px;
+    border-radius: 15px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    backdrop-filter: blur(5px);
+}
+
+.login__form h1 {
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.login__form label {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.login__form label > input, .login__form > input[type="submit"] {
+    background-color: transparent;
+    outline: none;
+    border: 3px solid #fff;
+    border-radius: 15px;
+    padding: 5px 10px;
+    color: #fff;
+}
+.login__form label > input {
+    font-size: 16px;
+    width: 90%;
+}
+
+.login__form > input[type="submit"] {
+    cursor: pointer;
+    font-size: 20px;
+    width: 25%;
+}
+
+.login__form > input[type="submit"]:hover {
+    transform: scale(1.05);
+    background-color: #ffffff77;
+}
