@@ -14,6 +14,7 @@ html {
     background-image: url(img/background_1.webp);
     background-size: cover;
     background-position: center;
+    background-color: #505050;
 }
 
 .main__content {
